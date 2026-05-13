@@ -10,7 +10,7 @@ import pytesseract
 from PIL import Image
 from io import BytesIO
 
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 
 load_dotenv()
 API_KEY = os.getenv("OPENROUTER_API_KEY")
